@@ -1,0 +1,14 @@
+body {
+    background-image: url("/images/header-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+nav {
+    background: linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .01));
+}
+
+#introduction {
+    text-shadow: 2px 2px 15px #000;
+}
