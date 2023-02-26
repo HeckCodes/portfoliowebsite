@@ -16,95 +16,84 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@900&display=swap"
       rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
 
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
-  <body class="bg-dark keep-scrolling" data-bs-theme="dark">
+  <body class="bg-dark" data-bs-theme="dark">
+    <div id="test">test</div>
+
+    <!-- ------------- HEADER ------------- -->
+
     <header>
-      <!-- HEADER -->
-      <nav class="navbar navbar-expand-sm bg-dark-subtle sticky-top">
-        <div class="container-fluid">
-          <a
-            class="navbar-brand d-flex flex-row align-items-center"
-            href="/index.html"
-          >
-            <img src="images/me.png" alt="Logo" width="36" />
-            <p class="mb-0 ms-2">Heck Codes</p>
-          </a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://github.com/HeckCodes"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >GitHub</a
-                >
-              </li>
-
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.linkedin.com/in/chandramauli-shastri/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >LinkedIn</a
-                >
-              </li>
-
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://drive.google.com/file/d/1r55Vh--FNN5q7_GZJnSwU36Z8Xv0Xqv6/view?usp=sharing"
-                  >Resume</a
-                >
-              </li>
-            </ul>
+      <div>
+        <div class="row text-center m-0">
+          <div class="col-sm-6">
+            <img src="/images/me.png" alt="my image" id="profile-image" />
           </div>
+          <div class="col-sm-6" id="profile-name">Heck Codes</div>
         </div>
-      </nav>
+      </div>
+    </header>
 
-      <!-- HEADER END -->
+    <!-- ------------- HEADER ------------- -->
 
-      <!-- INTRODUCTORY -->
-      <div class="container text-center mt-sm-5 mt-2">
-        <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-6 col-sm-6 col-6">
-            <img src="images/me.png" alt="Logo" class="img-fluid p-3" />
+    <section id="skill-section">
+      <div class="container">
+        <h1 class="section-name">TECHNOLOGIES</h1>
+        <div class="row text-center">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-cplusplus-plain tech-icon"></i><p class="tech-name">C/C++</p>
           </div>
-
-          <div class="col-lg-8 col-md-auto col-sm-auto p-3 align-self-center">
-            <h1 class="display-5" id="introduction">
-              Hi, I'm Heck Codes! A CSE undergraduate passionate about
-              programming and application development.
-            </h1>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-python-plain tech-icon"></i><p class="tech-name">Pyhton</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-html5-plain tech-icon"></i><p class="tech-name">HTML</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-css3-plain tech-icon"></i><p class="tech-name">CSS</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-javascript-plain tech-icon"></i><p class="tech-name">Javascript</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-nodejs-plain tech-icon"></i><p class="tech-name">NodeJS</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-react-original tech-icon"></i><p class="tech-name">React</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-flutter-plain tech-icon"></i><p class="tech-name">Flutter</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-dart-plain tech-icon"></i><p class="tech-name">Dart</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-java-plain tech-icon"></i><p class="tech-name">Java</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-amazonwebservices-original tech-icon"></i><p class="tech-name">AWS</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-firebase-plain tech-icon"></i><p class="tech-name">Firebase</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-mysql-plain tech-icon"></i><p class="tech-name">SQL</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 tech-card">
+            <i class="devicon-mongodb-plain tech-icon"></i><p class="tech-name">MongoDB</p>
           </div>
         </div>
       </div>
-
-      <!-- INTRODUCTORY END -->
-    </header>
-
-    <section>
-      <h1 class="display-3 text-center">Skills</h1>
     </section>
 
     <!-- SCRIPTS -->
